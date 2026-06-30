@@ -1,0 +1,22 @@
+# 必須（CSV整理・考察テンプレートに必要）
+pandas>=2.0
+numpy>=1.24
+
+# RAG 本体（文書取り込み・検索）
+chromadb>=0.5
+
+# 文書読み込み
+pypdf>=4.0
+# PyMuPDF  # pypdf で読めないPDFがある場合の代替（任意）
+
+# 設定
+python-dotenv>=1.0
+
+# OpenAI（APIキーがある場合の embedding / 回答生成）
+openai>=1.30
+
+# ローカル embedding の fallback（任意・やや重い）
+# sentence-transformers>=2.7
+
+# グラフ（任意・初期は不要）
+# matplotlib>=3.7

@@ -1,0 +1,19 @@
+# 秘密情報
+.env
+
+# ベクトルDBの中身（再生成可能なので追跡しない）
+chroma_db/*
+!chroma_db/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 投入データ（研究データは原則コミットしない。必要なら個別に追加）
+data/papers/*
+data/market_docs/*
+data/my_thesis/*
+data/results/*
+!data/**/.gitkeep
